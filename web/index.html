@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="to_do_list">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>to_do_list</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- 🔥 Firebase SDK -->
+  <script type="module">
+    // Import the functions you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAjbcKLcX8tbN4QXtk10AOri44iArn-pj0",
+      authDomain: "todoliststore-569d3.firebaseapp.com",
+      projectId: "todoliststore-569d3",
+      storageBucket: "todoliststore-569d3.firebasestorage.app",
+      messagingSenderId: "50235365054",
+      appId: "1:50235365054:web:489c1bc5b46d32bb0df0ef"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    console.log("Firebase initialized (Web)!");
+  </script>
+  <!-- END Firebase -->
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
