@@ -12,13 +12,21 @@ Fitur Utama
 	•	🗑 Hapus Aktivitas — Bersihkan task yang tidak diperlukan
 	•	💾 Auto Save — Data tersimpan otomatis (mis. dengan Provider)
 
-## Instalasi Aplikasi
+## Instalasi Aplikasi Flutter dengan Script Bash
 
-| Langkah | Perintah / Keterangan |
-|---------|----------------------|
-| 1. Clone Repository | Mengambil project ke perangkat lokal.<br>`git clone <URL_REPOSITORY>`<br>`cd <NAMA_FOLDER_PROJECT>` |
-| 2. Install Dependencies | Mengunduh semua package yang dibutuhkan aplikasi.<br>`flutter pub get` |
-| 3. Jalankan Aplikasi | Menjalankan project di emulator atau device fisik.<br>`flutter run`<br>Pastikan emulator aktif atau device fisik terhubung |
+```bash
+#!/bin/bash
+
+# 1. Clone Repository
+git clone <URL_REPOSITORY>
+cd <NAMA_FOLDER_PROJECT>
+
+# 2. Install Dependencies
+flutter pub get
+
+# 3. Jalankan Aplikasi
+flutter run
+
 
 
 ![SS GAMBAR 1](assets/images/flutter1.png)
