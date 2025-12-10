@@ -14,19 +14,21 @@ Fitur Utama
 
 ## Instalasi Aplikasi Flutter dengan Script Bash
 
+# *1. Clone Repository*
 ```bash
-#!/bin/bash
-
-# 1. Clone Repository
 git clone <URL_REPOSITORY>
 cd <NAMA_FOLDER_PROJECT>
+```
 
-# 2. Install Dependencies
+```bash
+# *2. Install Dependencies*
 flutter pub get
+```
 
-# 3. Jalankan Aplikasi
+```bash
+# *3. Jalankan Aplikasi*
 flutter run
-
+```
 
 
 ![SS GAMBAR 1](assets/images/flutter1.png)
